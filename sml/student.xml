@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+
+<student>
+
+
+
+
+<students sid="0011">
+<firstname>shen</firstname>
+<lastname>Wung</lastname>
+<subject>Computer</supject>
+
+</students>
+
+<students sid="0012">
+<firstName>en</firstName>
+<lastname>Wng</lastname>
+<subject>lifestudy</supject>
+
+</students>
+
+<students sid="0013">
+<firstName> aang </firstName>
+<lastname> Ben </lastname>
+<subject> Ai</supject>
+
+</students>
+
+
+
+</students>

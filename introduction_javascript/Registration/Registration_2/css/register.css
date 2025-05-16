@@ -1,0 +1,98 @@
+/*
+Css file for the register page.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register h1 {
+
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+
+/*background: #7909be;*/
+
+}
+
+.register {
+    border-radius: 3px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid #0000;
+    margin: 0 auto;
+    margin-top: 45px;
+    
+    background-color: rgb(127, 255, 244);
+    /*height: 400px;*/
+
+}
+
+.firstname, .middlename, .lastname, .phone, .email, .password, .confpassword {
+    font-weight: bold;
+    /*width: 50%;*/
+
+}
+
+/* .register, .reg_input_field[type="text"] {
+    width: 70%;
+
+}
+
+.register, .reg_input_field[type="password"] {
+    width: 70%;
+
+}
+.register, .reg_input_field[type="email"] {
+    width: 70%;
+
+} */
+
+.register button{
+
+    width: 100%;
+    height: 35px;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    background-color: #cd1e1e;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#firstname, #middlename, #lastname, #phone, #email, #password, #confpassword, #gender{
+    height: 30px;
+    width: 183%;
+
+    /* padding-left: 50%;
+    padding-right: 50%;
+    margin-bottom: 10px;
+    margin-left: 55px; */
+}
+
+.firstname, .middlename, .lastname, .phone, .email, .password, .confpassword, .gender{
+    height: 30px;
+  
+}
+
+.register label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.reg_input_field{
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#error {
+    text-align: center;
+    color: red;
+
+}

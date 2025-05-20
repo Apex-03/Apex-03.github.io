@@ -1,28 +1,35 @@
 
 body {
-background-color: #fff;
+background-color: rgb(53, 215, 236);
 font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(33, 171, 213);
+}
 #mypage {
 border: 1px solid #000;
-width: 100%;
+width: 80%;
 margin: 0 auto;
 }
 
 #banner {
 height: 150px;
-border: 1px solid #000;
+border: 1px solid #12a0dc;
 }
 
 #topnav {
 height: 45px;
-border: 1px solid #edbcca;
+border: 1px solid #0488ec;
 }
 
 /*Improving it starts here*/
 #topnav {
-background-color: #eaccdc;
+background-color: #a7cbe9;
 
 }
 
@@ -96,11 +103,11 @@ border: 1px solid #000;
 */
 
 .company_profile  {
-    width: 100%;
+    width: 80%;
     height: 250px;
-    background-color: #e8d8c8;
-    border-radius: 8px;
-    margin: 10px 0;
+    background-color: #dde5eb;
+    border-radius: 1px;
+    margin: 10px ;
 }
 
 .current_trainers ul li {
@@ -144,3 +151,10 @@ border: 1px solid #000;
     font-size: 400%;
 }
 
+marquee {
+    background-color: #cb35355d;
+    font-size: 1.2em; /* Use em or rem instead of % for consistency */
+    color: #f9c909;
+    padding: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,127 @@
+
+body {
+background-color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#mypage {
+border: 1px solid #000;
+width: 1200px;
+}
+
+#banner {
+height: 150px;
+border: 1px solid #000;
+}
+
+#topnav {
+height: 45px;
+border: 1px solid #edbcca;
+}
+
+/*Improving it starts here*/
+#topnav {
+background-color: #eaccdc;
+
+}
+
+.gi-2x{font-size: 28px; padding: 3px;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+
+#banner img {
+border-radius: 50%;
+
+/*height: 100px; width: 100px; background-color: #ff5733; margin: auto;*/
+}
+
+/*Improving it ends here*/
+
+
+#topnav ul li{
+text-decoration: none;
+display: inline;
+}
+
+#topnav a:link {
+text-decoration: none;
+color: #000;
+}
+
+#topnav a:visited {
+color: #caadce;
+}
+
+#topnav a:hover {
+background-color: #000;
+}
+
+#contentarea {
+height: 1800px;
+
+}
+
+
+#banner {
+font-size: 450%;
+
+}
+
+.hm {
+height: 25px;
+background-color: #e8d8c8;
+}
+
+
+
+
+/*
+#topnav ul li {
+text-decoration: none;
+display: inline;
+
+}
+
+https://developers.google.com/fonts/docs/getting_started
+
+#mypage {
+
+
+border: 1px solid #000;
+}
+
+*/
+
+.company_profile {
+    width: 100%;
+    height: 250px;
+    background-color: #c8def2;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.current_trainees {
+    width: 100%;
+    height: 400px;
+    background-color:burlywood;
+}
+
+.job_spec {
+    width: 100%;
+    height: 300px;
+    background-color:brown;
+}
+
+.application_form {
+    width: 100%;
+    height: 400px;
+    background-color:darkgray;
+}
+
+.our_courses {
+    width: 100%;
+    height: 380px;
+    background-color: coral;
+}
